@@ -1,0 +1,199 @@
+﻿
+#汉化 linglongx@人生当歌
+#Messages
+Error=错误
+File not exist.=文件不存在.
+Data processing error. File may be corrupted or not supported.=数据处理错误。文件可能已损坏或不支持。
+File type not recognized.=未识别的文件类型。
+File "{0}.asc" not found.=文件 "{0}.asc" 未找到。
+{0} is under development.={0} 正在开发中。
+
+#Menu
+File=文件
+Open=打开
+Exit=退出
+View=查看
+Board Outline=主板外形
+Pins=元件引脚
+Test Nails=测试点
+Vias=显示过孔
+Labels=显示元件标号
+Tooltip=显示弹出提示
+Flip Board Horizontally=水平翻转主板
+Flip Board Vertically=垂直翻转主板
+Options=选项
+Language=...(语言)
+Remember Window Position=记住窗口位置
+Help=帮助
+Check for Updates=检查更新
+Report an Error=报告一个错误
+Controls=操作帮助
+About Boardviewer=关于 Boardviewer
+
+#RecentFilesToolStripMenuItems
+Remove From List=从列表中删除
+
+#Tabs Names
+Main=主页
+Boardview=主板视图
+Schematic=示意图
+Firmware=固件
+
+#Main Tab
+Recent Files=最近打开的文件
+Search=搜索
+Web=万维网
+This PC=这台电脑
+
+#Boardview Tab
+	#Nets and Parts Tabs
+Part=零件
+Information about Selected Part=有关选定部分的信息
+Net=网络
+List of Parts using Selected Net=使用选定的网络零件列表
+	#Nets and Part Grids
+//Top and Bottom abbr.
+T=正面
+B=底部 
+//columnsNames
+RefDes=元件标号
+Info=元件信息
+Pin=元件引脚
+NetName=连接的网络名称
+	#Boardview Toolstrip Buttons
+Rotate the board 90° anticlockwise=逆时针旋转主板90°
+Rotate the board 90° clockwise=顺时针旋转主板90°
+Zoom Out=缩小
+Zoom to Fit=缩放到适合大小
+Zoom In=放大
+Undo=前进
+Redo=后退
+Top=正面
+Show Top Side=显示正面
+Bottom=底部
+Show Bottom Side=显示底部
+Parts:=元件：
+Show selected Part=显示选定的元件
+Highlight Part Names=高亮元件名称
+Nets:=网络：
+	#Boardview Context Menu
+Flip Board=翻转点位
+Rotate Clockwise=顺时针旋转
+Rotate Anticlockwise=逆时针旋转
+Close Board=关闭点位
+
+#OptionsForm
+	#General Tab
+General=常用
+Use Only One Instance of Program (Open New Files in Same Window)=只使用程序的一个实例（在同一窗口中打开新文件）注：当不勾选此选项时，可以运行多个程序用来打开多个点位图.
+Warning! All another instances of program will be closed.=警告！程序的所有其他实例都将关闭。
+Program will be restarted.=程序将重新启动。
+Launch BoardViewer in Full Screen=打开BoardViewer时全屏显示
+	#Graphics Tab
+Graphics=图形
+Graphics Acceleration:=图形加速：
+GDI Quality:=GDI质量：
+Use GDI mode if you have problems with Direct2D accelaration.=如果你有Direct2D加速问题，请使用使用GDI模式.
+	#Associations Tab
+Associations=文件关联
+Associated File Extensions with BoardViewer:=与BoardViewer关联的文件扩展名：
+Select None=取消所有
+Select All=选择所有
+	#Network Tab
+Network=网络
+Update Modes:=升级模式
+Automatially install updates=自动安装更新
+Check for updates, but let me choose whether to install them=检查更新，但让我选择是否安装更新.
+Never check for updates=从不检查更新
+
+#AboutForm
+Version=linglongx@人生当歌汉化  版本
+
+#ControlsHelpForm
+Keyboard=键盘
+Mouse=鼠标
+	#KeyboardTab
+ALT + F4=
+Close the program.=关闭本程序
+CTRL + O=
+Display the Open File dialog box. You can also open a file by dragging it into the BoardViewer window. For TSICT format, it will open a folder, too.=显示打开文件对话框，你也可以拖放一个文件到BoardViewer窗口来打开。打开TSICT格式点位所有文件一定要在同一个文件夹。
+ESC=ESC键
+Close the currently opened BoardView file.=关闭当前打开的点位图文件
+A / W / D / S=
+Move the mark '+' in the middle of the screen Left/Up/Right/Down.= A W D S 键 与 ← ↑ → ↓ 用来移动点位视图
+Arrow Keys=方向键
+Move the board Left/Up/Right/Down.=上下左右移动点位视图
+SHIFT [hold]=按住SHIFT键
+Zoom the board area under the mark '+'.=临时放大点位视图，按住SHIFT键的同时可以使用 + 或 - 键在放大的基础上再进行放大或缩小
+E / Enter=
+Select an element or a pin under mark '+' in the middle of the screen.=选中屏幕中间十字标对准的元件或网络
+CTRL [hold]=按住CTRL 键
+Temporarily enable/disable highlighting of the part names.=临时打开或关闭元件名称高亮显示
+SPACE=空格键
+Flip the board.=切换正面与底部视图
+TAB=TAB键
+Switch Part/Net tabs.=切换显示零件信息与网络链信息
+F= F 键
+Zoom the board to fit the window.=缩放点位视图到适合大小
++ / -=+ 或 - 键 
+Zoom the board In/Out.= 放大或缩小点位视图
+R=R键
+Rotate the board clockwise.=顺时针旋转主板90°
+, / .=， 或 . 键
+Rotate the board anticlockwise/clockwise.=逆时针或顺时针旋转主板90°
+M=M 键
+Mirror the board. You can also mirror the board using the View menu.=镜像翻转点位视图
+H=H 键 
+Highlight part names. Use CTRL key to temporarily enable/disable highlighting.=打开或关闭元件名称高亮显示，你也可以使用 CTRL 键 临时打开或关闭元件名称高亮显示.
+	#MouseTab
+LEFT [click]=左键单击
+Select a part or a pin under the cursor. If there's no elements under the cursor, it will deselect what is currently selected.=选择鼠标指向的元件或引脚，如果鼠标指向空白的地方则取消当前的选择
+LEFT [hold down and move]=按住左键拖动
+Moves the board in any direction.=移动点位视图
+RIGHT [hold down]=按住右键
+Quick zoom of the area under the cursor. After the button is released, the board will be displayed in the same positon as before. When you hold down the right button, you can use the left button and the wheel as usual.=快速放大鼠标指针指向的位置，此时你还可以像平时一样再使用方向键移动点位视图，使用+-键在放大的基础上再次进行缩放；松开后恢复原视图.
+WHEEL [click]=滚轮单击
+WHEEL [scroll]=滚轮转动
+
+
+#UpdateForm
+	#Buttons
+Next=
+Update=
+Cancel=
+Finish=
+Install Updates=
+Skip This Version=
+	#Messages
+An error occurred=
+Update is Running=
+A scheduled update is currently running.\r\nPlease wait for the current operation to finish.=
+Status:=
+Searching for updates=
+Searching for updates to program. This process could take a few minutes.=
+Unable to check for updates, the server file failed to load.=
+Processing server file=
+Server file is corrupted.=
+You already have the latest version=
+Latest version already installed.\r\nRemember to check for new updates frequently.=
+Update Information=
+A new version of program is available!=
+The current version of program is {0}. The latest version is {1}.=
+Release Notes:=
+Downloading & Installing updates=
+Downloading updates=
+Downloading updates. This process could take a few minutes.=
+Download complete=
+All of the components were downloaded successfully.=
+Not all required files were downloaded successfully, please try again later.=
+Installing updates=
+Your needs administrative privileges to update program.=
+Could not create backup directory.=
+Rolling back files=
+Trying to rollback updates.=
+An error occurred while copying for new files.=
+Rollback fail.=
+Congratulations=
+Update successful!=
+Program has been successfully updated.=
+Warning! Program will be restarted.=
